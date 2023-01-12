@@ -15,3 +15,4 @@ echo $1 > version.txt
 git status
 git add -A
 git commit -m "vendoring in $1"
+git status
