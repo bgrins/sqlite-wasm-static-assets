@@ -13,3 +13,5 @@ mv sqlite-wasm-$1/* .
 rm -r sqlite-wasm-$1 sqlite-wasm-$1.zip
 echo $1 > version.txt
 git status
+git add -A
+git commit -m "vendoring in $1"
